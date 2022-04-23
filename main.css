@@ -1,0 +1,85 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:lightskyblue;
+    padding:0;
+    margin:0;
+}
+
+#container{
+    margin: 0 auto;
+    padding:2%;
+    width:80%;
+    background-color: #fefefe;
+    box-shadow: 5px 10px 5px grey;
+}
+
+h1, form {
+    text-align: center;
+}
+form button {
+    background-color: royalblue;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 900;
+    padding:1%;
+    width:10%;
+    margin-left: 0;
+}
+
+form input {
+    border-radius: 20px;
+    width:40%;
+    padding: 1%;
+}
+
+label {
+    font-weight: 900;
+}
+
+#paper {
+
+    margin:5% auto;
+    width:70%; 
+}
+
+ul {
+    margin:5% auto;
+    width:80%;
+    font-size: 1.5em;
+    line-height: 1.5;
+    list-style: none;
+}
+
+li {
+    border-bottom: royalblue 1px solid;
+    padding: 0;
+}
+
+button {
+    background-color: royalblue;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 900;
+    padding:1.5%;
+    margin:1% 3%;
+    min-width: 10%;
+}
+
+/*list style entities from https://www.w3schools.com/cssref/css_entities.asp*/
+.undone {
+    text-decoration: none;
+    list-style-type:"\25A2";
+    padding-left:2%;
+}
+
+.done {
+    text-decoration: line-through;
+    color:#a3a3a3;
+    list-style-type:"\2714";
+    padding-left:2%;
+}
